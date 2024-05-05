@@ -17,7 +17,6 @@ public class PIN {
         System.out.println(validatePin("12345"));// False
         System.out.println(validatePin("a234")); // False
         
-        boolean a = Character.isDigit(0);
     }
 
     public static boolean validatePin(String pin) {
